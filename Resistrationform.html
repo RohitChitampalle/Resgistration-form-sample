@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #DC143C;
+        }
+
+        #parent {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            margin: 0% 35%;
+            padding: 50px ;
+            border-radius: 10px;
+        }
+
+        #resis {
+            padding: 30px;
+            width: 600px;
+        }
+
+        input[type=text] {
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid rgb(155, 151, 151);
+        }
+
+        #birth {
+            width: 190px;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid rgb(155, 151, 151);
+            display: inline-block;
+        }
+
+        #gend {
+            width: 200px;
+            display: inline-block;
+            margin-right: 90px;
+           
+        }
+        #gende {
+            width: 300px;
+            display: inline-block;
+            /* float: left; */
+           
+        }
+/* 
+        #dg {
+            display: inline-block;
+
+        } */
+
+        #abc {
+            width: 40%;
+            padding: 12px 0px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid rgb(155, 151, 151);
+        }
+
+        #def {
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid rgb(155, 151, 151);
+        }
+
+        #submit {
+            padding: 10px;
+            width: 80px;
+            background-color: #2ab625;
+            border: none;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+
+        #img {
+            background-image: url(./Images/salad.jpg);
+            width: 300px;
+            height: 600px;
+            float: left;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            margin-left: 150px;
+
+
+        }
+        #main{
+            padding-left: 90px;
+            margin-left: 1px;
+            margin: 0% auto;
+        }
+        h2{
+            font-family: Lucida Sans Unicode;
+            font-size: 30px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="img">
+            <!-- <img src="./Images/salad.jpg" alt=""> -->
+
+        </div>
+        <div id="parent">
+            <div id="resis">
+                <form action="">
+                    <h2><b> REGISTRATION INFO</b></h2>
+                    <input type="text" name="" id="" placeholder="Name">
+                    <br>
+                    <div id="dg">
+                        <div id="gend">
+                            <input type="date" name="name" id="birth" placeholder="Birthdate">
+                        </div>
+                        <div id="gende">
+                            <select name="" id="abc">
+                                <option value="">Gender</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <select name="" id="def">
+                        <option value="">Class</option>
+                        <option value="">First Class</option>
+                        <option value="">Second Class</option>
+                    </select>
+                    <br>
+                    <input type="text" name="" id="regi" placeholder="Registrstion Code">
+                    <br>
+                    <input type="submit" value="Search" id="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
